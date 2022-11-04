@@ -1,0 +1,55 @@
+.parent{
+    background-color: rgb(47, 210, 210);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.center{
+    width: 25vw;
+    height: 70vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.pic{
+    width: 25vw;
+    height: 35vh;
+    background-color: rgb(47, 183, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* .min{
+    width: 20vw;
+    height: 25vh;
+    background-image: url("https://cdn2.iconfinder.com/data/icons/despicable-me-2-minions/128/Curious-Minion-Icon.png");
+  
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.name{
+    width: 25vw;
+    height: 35vh;
+    background-color: rgb(47, 183, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kevin{
+    width: 25vw;
+    height: 7vh;
+    background-color: green;
+    color: aliceblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
