@@ -1,0 +1,21 @@
+div{
+    border: 1px solid black;
+    height: 100px;
+    background-color: aqua;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+.item{
+    width: 33.333%;
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    background-color: brown;
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        .parent{
+            background-color: rgb(148, 50, 50);
+            height:500px;
+            width:10px;
+            padding: 100PX;
+            z-index: 1;
+            position: absolute;
+            /* trbl */
+            
+        }
+        .child{
+            background-color: rgb(0, 242, 255);
+            height:100px;
+            width:100px;
+            margin:0px 0px 0px 100px;
+            position: relative;
+
+            
+            
+        }
+        input{
+            display: block;
+        }
+        #test{
+            border-color: aqua;
+            border-left: 200px;
+            padding-left: 200px;
+            margin: 200px 50px 50px 100px;
+            border-style: dotted;
+            position: relative;
+            z-index: 1;
+            float: left;
+            
+
+
+        }
+        #inn{ border: 200px 40px 40px 100px;
+
+        }
+        .fix{
+            margin: 40px 200px 50px 100px;
+            background-color: aqua;
+            position:fixed;
+            top: 50px;
+            left: 100px;
+            position: relative;
+            
+        }
+    </style>
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+    <div id="test">
+        <h1>fverr</h1>
+        <div id="inn">
+            <h1>
+                bvuiobuuobgoubobuoubougoubbou
+            </h1>
+        </div>
+    </div>
+    <div class="fix">
+        <h1>
+            ibgugyiiguuigougiug
+        </h1>
+    </div>
+</body>
+</html>

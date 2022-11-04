@@ -1,0 +1,28 @@
+body{
+    background-color: cyan;
+}
+#cen{
+    background-color: green;
+    margin: 200px 200px 200px 200px;
+   
+    padding:0%
+    
+    
+}
+#bu{
+   display: flex;
+   justify-content: center;
+
+
+}
+.fn{
+    font-family: showcard gothic ;
+    font-weight: 500px;
+    color: azure;
+}
+#b{
+    margin: 50px 50px 50px 50px;
+    border-radius: 6px;
+    height: 60px;
+    display: flex;
+}

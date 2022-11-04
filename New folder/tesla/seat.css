@@ -1,0 +1,95 @@
+body{
+    margin: 0%;
+
+}
+.parent{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.big{
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(11, 160, 63);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    
+}
+.small{
+    width: 100vw;
+    height: 30vh;
+    background-color: aqua;
+}
+.f1{
+    background-color: azure;
+    width: 20vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+ .f2{
+    background-color: azure;
+    width: 20vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.f3{
+    background-color: azure;
+    width: 20vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.f4{
+    background-color: azure;
+    width: 20vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.c1{
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    
+    justify-content: space-around;
+    border-radius: 8px;
+}
+.bar{
+    width: 16vw;
+    height: 7vh;
+    display: flex;
+    background-color:green;
+    border-radius: 8px;
+    margin-left: 25px;
+}
+.c2{
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    
+    justify-content: space-around;
+}
+.w1{
+    width: 3vw;
+    height: 6vh;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    border-radius: 6px;
+
+}
+     
+

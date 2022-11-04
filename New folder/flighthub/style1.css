@@ -1,0 +1,20 @@
+
+
+.b{
+    border-color: blue;
+    border-radius: 6px;
+    display: flex;
+
+}
+div{
+    border: 1px solid black;
+    height: 100px;
+}
+.container{
+    justify-content: center;
+
+}
+.container{
+    justify-content: space-between;
+    
+}
